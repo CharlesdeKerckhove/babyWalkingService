@@ -1,0 +1,82 @@
+$ffh: 'Varela Round', sans-serif;
+$ffb: 'Open Sans', sans-serif;
+$black: #393E41;
+$green: #42E099;
+$blue: #8AE1FC;
+$purple: #8A98FC;
+$pink: #BAA8F7;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin computer {
+    @media only screen and (min-width:480px) {
+        @content;
+    }
+}
+
+//layout
+
+@import 'basics';
+
+//fonts
+
+@import 'text';
+
+//buttons
+
+@import 'buttons';
+
+//header 
+
+@import 'header';
+
+//home
+
+@import 'home';
+
+//about
+ 
+@import 'about';
+
+//location
+    
+@import 'location';
+
+//prices
+ 
+@import 'prices';
+
+//contact
+
+@import 'contact';
+
+//booking
+
+@import 'booking';
+
+//register
+
+@import 'register';
+
+//account
+
+@import'account';
+
+//children
+
+@import'children';
+
+//carerarea
+
+@import'carerarea';
+
+//reviews
+
+@import'reviews';
+
+//footer
+
+@import 'footer';

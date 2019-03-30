@@ -1,0 +1,21 @@
+.regform {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+#registrationimg {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+@include computer {
+    #registrationimg{
+        width: 40%;
+    }
+}
+.errormsg {
+    color: lighten(red, 15);
+}
